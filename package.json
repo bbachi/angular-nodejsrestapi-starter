@@ -1,0 +1,38 @@
+{
+  "name": "angular-nodejsrestapi-starter",
+  "version": "1.0.0",
+  "description": "This is a angular UI with node API with typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.js",
+    "bundle": "gulp",
+    "start": "node dist/server.bundle.js",
+    "test": "mocha -r ts-node/register test/**/*.ts"
+  },
+  "author": "Bhargav Bachina",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "env-read": "^1.0.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/debug": "0.0.30",
+    "@types/express": "^4.16.0",
+    "@types/express-session": "^1.15.10",
+    "awesome-typescript-loader": "^5.2.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "dotenv-webpack": "^1.5.7",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.2.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
+  }
+}
